@@ -12,14 +12,14 @@
 		<link href="../css/weather-icons.min.css" rel="stylesheet">
 		<link href="../css/beyond.min.css" rel="stylesheet">
 		<link href="../css/demo.min.css" rel="stylesheet">
-		<link href="../css/layer.css" rel="stylesheet">
 		<link href="../css/typicons.min.css" rel="stylesheet">
 		<link href="../css/animate.min.css" rel="stylesheet">
+		<link href="../http://www.ofmonkey.com/query/local" rel="stylesheet" type="text/css">
 		<link href="../css/simple.css" rel="stylesheet">
+
 		<script src="../jquery/jquery-3.2.1.min.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/layer.js"></script>
-		<script type="text/javascript" src="http://tajs.qq.com/stats?sId=63576587" charset="UTF-8"></script>
+
 	</head>
 
 	<body>
@@ -83,7 +83,7 @@
 							</a>
 						</li>
 						<li data-flag="front">
-							<a href="/front/color">
+							<a href="#">
 								<i class="menu-icon glyphicon glyphicon-th"></i>
 								<span class="menu-text"> 前端工具 </span>
 							</a>
@@ -125,13 +125,13 @@
 							</a>
 						</li>
 						<li data-flag="regex">
-							<a href="/regex/test">
+							<a href="#">
 								<i class="menu-icon glyphicon glyphicon-book"></i>
 								<span class="menu-text"> 正则表达式 </span>
 							</a>
 						</li>
 						<li data-flag="ercode">
-							<a href="/ercode/create">
+							<a href="#">
 								<i class="menu-icon glyphicon glyphicon-qrcode"></i>
 								<span class="menu-text">
                                 二维码生成
@@ -139,7 +139,7 @@
 							</a>
 						</li>
 						<li data-flag="barcode">
-							<a href="/barcode/create">
+							<a href="#">
 								<i class="menu-icon glyphicon glyphicon-barcode"></i>
 								<span class="menu-text">
                                 条形码生成
@@ -185,7 +185,7 @@
 											<label class="query-tag">ip地址：</label>
 											<input type="text" spellcheck="false" placeholder="请输入ip地址" class="form-control query-input" id="ip">
 										</div>
-										<button type="button" class="btn btn-primary" id="ipquery">查询</button>
+										<button type="button" class="btn btn-primary" id="query">查询</button>
 									</form>
 									<table class="table table-bordered">
 										<tbody>
@@ -244,6 +244,11 @@
 				</div>
 			</div>
 		</div>
+
+		<script src="../js/beyond.min.js"></script>
+
+		<input id="hiddenToken" name="hiddenToken" type="hidden" value="00000000-0000-0000-0000-000000000000636385058528971380">
+
 		<script>
 			$(function() {
 				$(window).scroll(function() {
@@ -294,7 +299,7 @@
 		
 		<script type="text/javascript">
 		/*统计点击事件*/
-		$("#ipquery").click(function() {
+		$("button").click(function() {
 			$.ajax({
 				url: '/ipaddressquery/query',
 				dataType: "json",
@@ -302,13 +307,11 @@
 					ip: $("#ip").val()
 				},
 				success: function(res) {
-					$("#address").html("");
-					$("#dizhiduan").html("");
-					if(res.data.showapi_res_body.ret_code==0) {
-						$("#address").html(res.data.showapi_res_body.city);
-						$("#dizhiduan").html(res.data.showapi_res_body.lat+'/'+res.data.showapi_res_body.lnt);
-					} else {						
-						layer.msg("未查询到", {icon: 2});
+					if(res.result == "") {
+						alert("手机号不正确")
+					} else {
+						$("#address").html(res.showapi_res_body.city)
+						$("#dizhiduan").html(res.showapi_res_body.lat+'/'+res.showapi_res_body.lnt)
 					}
 
 				}

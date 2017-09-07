@@ -17,10 +17,6 @@ public class EncryptController extends Controller{
 	public void image64(){
 		render("image64.html");
 	}
-
-	public  void filemd5(){
-		render("filemd5.html");
-	}
 	
 	/**
 	 * 转md5

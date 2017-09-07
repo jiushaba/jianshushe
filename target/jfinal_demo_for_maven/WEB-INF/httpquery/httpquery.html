@@ -8,23 +8,18 @@
 		<link rel="stylesheet" href="../css/bootstrap.min.css" />
 		<link rel="stylesheet" href="../css/bootstrap.css" />
 		<link rel="stylesheet" href="../css/animate.css" />
-		<link rel="stylesheet" href="../css/layer.css" />
 		<link href="../css/font-awesome.min.css" rel="stylesheet">
 		<link href="../css/weather-icons.min.css" rel="stylesheet">
 		<link href="../css/beyond.min.css" rel="stylesheet">
 		<link href="../css/demo.min.css" rel="stylesheet">
 		<link href="../css/typicons.min.css" rel="stylesheet">
 		<link href="../css/animate.min.css" rel="stylesheet">
+		<link href="../http://www.ofmonkey.com/query/local" rel="stylesheet" type="text/css">
 		<link href="../css/simple.css" rel="stylesheet">
-		<link href="../css/layer.css" rel="stylesheet">
+
 		<script src="../jquery/jquery-3.2.1.min.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/layer.js"></script>
-		<script src="/js/jsformat.js"></script>
-		<script src="/js/base.js"></script>
-		<script src="/js/htmlformat.js"></script>
-		<script type="text/javascript" src="/js/jquery-extend.js"></script>
-		<script type="text/javascript" src="http://tajs.qq.com/stats?sId=63576587" charset="UTF-8"></script>
+
 	</head>
 
 	<body>
@@ -88,7 +83,7 @@
 							</a>
 						</li>
 						<li data-flag="front">
-							<a href="/front/color">
+							<a href="#">
 								<i class="menu-icon glyphicon glyphicon-th"></i>
 								<span class="menu-text"> 前端工具 </span>
 							</a>
@@ -130,13 +125,13 @@
 							</a>
 						</li>
 						<li data-flag="regex">
-							<a href="/regex/test">
+							<a href="#">
 								<i class="menu-icon glyphicon glyphicon-book"></i>
 								<span class="menu-text"> 正则表达式 </span>
 							</a>
 						</li>
 						<li data-flag="ercode">
-							<a href="/ercode/create">
+							<a href="#">
 								<i class="menu-icon glyphicon glyphicon-qrcode"></i>
 								<span class="menu-text">
                                 二维码生成
@@ -144,7 +139,7 @@
 							</a>
 						</li>
 						<li data-flag="barcode">
-							<a href="/barcode/create">
+							<a href="#">
 								<i class="menu-icon glyphicon glyphicon-barcode"></i>
 								<span class="menu-text">
                                 条形码生成
@@ -191,27 +186,27 @@
 												<tbody>
 													<tr>
 														<td style="width: 10%;">
-															<select class="form-control" id="type">
+															<select class="form-control">
 																<option value="get">GET</option>
 																<option value="post">POST</option>
 															</select>
 														</td>
-														<td style="width: 80%; padding: 0px 5px;"><input spellcheck="false" type="text" value="http://www.jianshushe.com" placeholder="请填写网址，暂不支持https" class="form-control" id="url"></td>
-														<td style="width: 10%;"><button type="button" class="btn btn-primary btn-block" id="request">请求</button></td>
+														<td style="width: 80%; padding: 0px 5px;"><input spellcheck="false" type="text" value="http://www.ofmonkey.com" placeholder="请填写网址，暂不支持https" class="form-control"></td>
+														<td style="width: 10%;"><button type="button" class="btn btn-primary btn-block">请求</button></td>
 													</tr>
 												</tbody>
 											</table>
 										</td>
 									</tr>
 									<tr>
-										<td><textarea spellcheck="false" rows="2" placeholder="如果有参数，在些填入参数，格式为：name=tom&amp;age=28&amp;sex=1" class="form-control" id="param"></textarea></td>
+										<td><textarea spellcheck="false" rows="2" placeholder="如果有参数，在些填入参数，格式为：name=tom&amp;age=28&amp;sex=1" class="form-control"></textarea></td>
 									</tr>
 									<tr>
 										<td><textarea id="html_text" spellcheck="false" rows="14" placeholder="返回结果" class="form-control"></textarea></td>
 									</tr>
 								</tbody>
 							</table>
-							<p><button id="beautify" type="button" class="btn btn-success">html格式化</button> <button type="button" onclick="$(&#39;#html_text&#39;).format({ method: &#39;json&#39;})" class="btn btn-primary">json格式化</button> <button type="button" onclick="$(&#39;#html_text&#39;).format({ method: &#39;xml&#39; })" class="btn btn-danger">xml格式化</button> <button id="btnRecover" type="button" class="btn btn-default">还原</button></p>
+							<p><button id="beautify" type="button" class="btn btn-success">html格式化</button> <button type="button" onclick="$(&#39;#html_text&#39;).format({ method: &#39;json&#39; })" class="btn btn-primary">json格式化</button> <button type="button" onclick="$(&#39;#html_text&#39;).format({ method: &#39;xml&#39; })" class="btn btn-danger">xml格式化</button> <button id="btnRecover" type="button" class="btn btn-default">还原</button></p>
 						</div>
 						<div class="error-container">
 							<div id="errorDiv" class="alert alert-danger alert-dismissible" role="alert" style="display:none;">
@@ -255,6 +250,11 @@
 				</div>
 			</div>
 		</div>
+
+		<script src="../js/beyond.min.js"></script>
+
+		<input id="hiddenToken" name="hiddenToken" type="hidden" value="00000000-0000-0000-0000-000000000000636385058528971380">
+
 		<script>
 			$(function() {
 				$(window).scroll(function() {
@@ -302,33 +302,7 @@
 					$(".nav-pill li").eq(0).addClass("active");
 			}());
 		</script>
-		<script type="text/javascript">
-		var  result="";
-		/*请求事件*/
-		$("#request").click(function() {
-			$.ajax({
-				url: '/httpquery/query',
-				dataType: "json",
-				data: {
-					url: $("#url").val(),
-					type:$("#type").val(),
-					param:$("#param").val()
-				},
-				success: function(res) {
-					if(res.data == "") {
-						alert("请求为空")
-					} else {
-						result=res.data;
-						$("#html_text").val(res.data);
-					}
-				}
 
-			});
-		});	
-		$("#btnRecover").click(function() {
-			$("#html_text").val(result);
-		});
-	</script>
 	</body>
 
 </html>

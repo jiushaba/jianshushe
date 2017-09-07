@@ -53,12 +53,12 @@ public class DemoConfig extends JFinalConfig {
 	 * 一条启动配置，可对该自动生成的配置再添加额外的配置项，例如 VM argument 可配置为：
 	 * -XX:PermSize=64M -XX:MaxPermSize=256M
 	 */
-	/*public static void main(String[] args) {
-		*//**
+	public static void main(String[] args) {
+		/**
 		 * 特别注意：Eclipse 之下建议的启动方式
-		 *//*
+		 */
 		JFinal.start("src/main/webapp", 8088, "/");
-	}*/
+	}
 
 	/**
 	 * 配置常量
