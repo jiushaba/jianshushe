@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/animate.css" />
+		<link href="../css/font-awesome.min.css" rel="stylesheet">
+		<link href="../css/weather-icons.min.css" rel="stylesheet">
+		<link href="../css/beyond.min.css" rel="stylesheet">
+		<link href="../css/demo.min.css" rel="stylesheet">
+		<link href="../css/typicons.min.css" rel="stylesheet">
+		<link href="../css/animate.min.css" rel="stylesheet">
+		<link href="../http://www.ofmonkey.com/query/local" rel="stylesheet" type="text/css">
+		<link href="../css/simple.css" rel="stylesheet">
+
+		<script src="../jquery/jquery-3.2.1.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="http://tajs.qq.com/stats?sId=63576587" charset="UTF-8"></script>
+	</head>
+
+	<body>
+		<!--导航-->
+		<nav class="navbar navbar-default navbar-fixed-top" style="background:#101010;">
+			<div class="container-fluid">
+				<!--小屏幕导航按钮和logo-->
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+					<a href="index.html" class="navbar-brand">
+
+					</a>
+				</div>
+				<!--小屏幕导航按钮和logo-->
+				<!--导航-->
+				<div class="navbar-collapse collapse">
+					<a href="/" class="navbar-left">
+						<img src="../Images/monkey_logo.png" height="50px" />
+					</a>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#home">友情链接</a>
+						</li>
+						<li>
+							<a href="#bbs">赞助名单</a>
+						</li>
+						<li>
+							<a href="#html5">意见反馈</a>
+						</li>
+						<li>
+							<a href="#course">开发日志</a>
+						</li>
+						<li>
+							<a href="#app">关于本站</a>
+						</li>
+					</ul>
+				</div>
+				<!--导航-->
+
+			</div>
+		</nav>
+		<!--导航-->
+		<div class="main-container container-fluid">
+			<div class="page-container">
+				<div class="page-sidebar" id="sidebar">
+					<ul class="nav sidebar-menu nav-pill">
+						<li>
+							<a href="/">
+								<i class="menu-icon glyphicon glyphicon-home"></i>
+								<span class="menu-text"> 所有功能 </span>
+							</a>
+						</li>
+						<li data-flag="query" >
+							<a href="/query">
+								<i class="menu-icon glyphicon glyphicon-search"></i>
+								<span class="menu-text"> 数据查询 </span>
+							</a>
+						</li>
+						<li data-flag="front">
+							<a href="/front/color">
+								<i class="menu-icon glyphicon glyphicon-th"></i>
+								<span class="menu-text"> 前端工具 </span>
+							</a>
+						</li>
+						<li data-flag="entity">
+							<a href="#">
+								<i class="menu-icon glyphicon glyphicon-fire"></i>
+								<span class="menu-text"> 实体生成 </span>
+							</a>
+						</li>
+						<li data-flag="encode">
+							<a href="#">
+								<i class="menu-icon glyphicon glyphicon-list-alt"></i>
+								<span class="menu-text"> 编码解码 </span>
+							</a>
+						</li>
+						<li data-flag="encrypt">
+							<a href="#">
+								<i class="menu-icon glyphicon glyphicon-screenshot"></i>
+								<span class="menu-text"> 加密解密 </span>
+							</a>
+						</li>
+						<li data-flag="transfer">
+							<a href="#">
+								<i class="menu-icon glyphicon glyphicon-edit"></i>
+								<span class="menu-text"> 字符转换 </span>
+							</a>
+						</li>
+						<li data-flag="unit">
+							<a href="#">
+								<i class="menu-icon glyphicon glyphicon-gbp"></i>
+								<span class="menu-text"> 单位换算 </span>
+							</a>
+						</li>
+						<li data-flag="format">
+							<a href="#">
+								<i class="menu-icon glyphicon glyphicon-asterisk"></i>
+								<span class="menu-text"> 代码格式化 </span>
+							</a>
+						</li>
+						<li data-flag="regex" class="active">
+							<a href="/regex/test">
+								<i class="menu-icon glyphicon glyphicon-book"></i>
+								<span class="menu-text"> 正则表达式 </span>
+							</a>
+						</li>
+						<li data-flag="ercode">
+							<a href="/ercode/create">
+								<i class="menu-icon glyphicon glyphicon-qrcode"></i>
+								<span class="menu-text">
+                                二维码生成
+                            </span>
+							</a>
+						</li>
+						<li data-flag="barcode">
+							<a href="/barcode/create">
+								<i class="menu-icon glyphicon glyphicon-barcode"></i>
+								<span class="menu-text">
+                                条形码生成
+                            </span>
+							</a>
+						</li>
+						<li data-flag="docs">
+							<a href="/docs/http">
+								<i class="menu-icon glyphicon glyphicon-link"></i>
+								<span class="menu-text"> 常用参考表 </span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="page-content" style="padding:20px 25px;background:#fff;">
+					<ul class="nav nav-tabs">
+   						 <li><a href="/regex/test">正则测试</a></li>
+    					 <li class="active"><a href="/regex/docs">正则参考</a></li>
+					</ul>
+					<div class="tab-content">
+    <div class="tab-pane active">
+        <h4>常用正则</h4>
+        <table class="table table-bordered table-hover">
+            <tbody><tr>
+                <td width="100px">汉字</td>
+                <td>[\u4e00-\u9fa5]</td>
+            </tr>
+            <tr>
+                <td>手机</td>
+                <td>0?(13|14|15|17|18)[0-9]{9}</td>
+            </tr>
+            <tr>
+                <td>邮箱</td>
+                <td>\w[-\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\.)+[A-Za-z]{2,14}</td>
+            </tr>
+            <tr>
+                <td>IP</td>
+                <td>^((2[0-4]\d|25[0-5]|[01]?\d\d?)\.){3}(2[0-4]\d|25[0-5]|[01]?\d\d?)$</td>
+            </tr>
+            <tr>
+                <td>网址</td>
+                <td>^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$</td>
+            </tr>
+        </tbody></table>
+        <h4>正则语法</h4>
+        <table class="table table-bordered table-hover">
+            <tbody>
+                <tr>
+                    <td width="100px">字符</td>
+                    <td>描述</td>
+                </tr>
+                <tr>
+                    <td>\</td>
+                    <td>将下一个字符标记为一个特殊字符、或一个原义字符、或一个向后引用、或一个八进制转义符。例如，“<code>n</code>”匹配字符“<code>n</code>”。“<code>\n</code>”匹配一个换行符。串行“<code>\\</code>”匹配“<code>\</code>”而“<code>\(</code>”则匹配“<code>(</code>”。</td>
+                </tr>
+                <tr>
+                    <td>^</td>
+                    <td>匹配输入字符串的开始位置。如果设置了RegExp对象的Multiline属性，^也匹配“<code>\n</code>”或“<code>\r</code>”之后的位置。</td>
+                </tr>
+                <tr>
+                    <td>$</td>
+                    <td>匹配输入字符串的结束位置。如果设置了RegExp对象的Multiline属性，$也匹配“<code>\n</code>”或“<code>\r</code>”之前的位置。</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>匹配前面的子表达式零次或多次。例如，zo*能匹配“<code>z</code>”以及“<code>zoo</code>”。*等价于{0,}。</td>
+                </tr>
+                <tr>
+                    <td>+</td>
+                    <td>匹配前面的子表达式一次或多次。例如，“<code>zo+</code>”能匹配“<code>zo</code>”以及“<code>zoo</code>”，但不能匹配“<code>z</code>”。+等价于{1,}。</td>
+                </tr>
+                <tr>
+                    <td>?</td>
+                    <td>匹配前面的子表达式零次或一次。例如，“<code>do(es)?</code>”可以匹配“<code>does</code>”或“<code>does</code>”中的“<code>do</code>”。?等价于{0,1}。</td>
+                </tr>
+                <tr>
+                    <td>{<span style="font-family:Times New Roman; font-style:italic;">n</span>}</td>
+                    <td><span style="font-family:Times New Roman; font-style:italic;">n</span>是一个非负整数。匹配确定的<span style="font-family:Times New Roman; font-style:italic;">n</span>次。例如，“<code>o{2}</code>”不能匹配“<code>Bob</code>”中的“<code>o</code>”，但是能匹配“<code>food</code>”中的两个o。</td>
+                </tr>
+                <tr>
+                    <td>{<span style="font-family:Times New Roman; font-style:italic;">n</span>,}</td>
+                    <td><span style="font-family:Times New Roman; font-style:italic;">n</span>是一个非负整数。至少匹配<span style="font-family:Times New Roman; font-style:italic;">n</span>次。例如，“<code>o{2,}</code>”不能匹配“<code>Bob</code>”中的“<code>o</code>”，但能匹配“<code>foooood</code>”中的所有o。“<code>o{1,}</code>”等价于“<code>o+</code>”。“<code>o{0,}</code>”则等价于“<code>o*</code>”。</td>
+                </tr>
+                <tr>
+                    <td>{<span style="font-family:Times New Roman; font-style:italic;">n</span>,<span style="font-family:Times New Roman; font-style:italic;">m</span>}</td>
+                    <td><span style="font-family:Times New Roman; font-style:italic;">m</span>和<span style="font-family:Times New Roman; font-style:italic;">n</span>均为非负整数，其中<span style="font-family:Times New Roman; font-style:italic;">n</span>&lt;=<span style="font-family:Times New Roman; font-style:italic;">m</span>。最少匹配<span style="font-family:Times New Roman; font-style:italic;">n</span>次且最多匹配<span style="font-family:Times New Roman; font-style:italic;">m</span>次。例如，“<code>o{1,3}</code>”将匹配“<code>fooooood</code>”中的前三个o。“<code>o{0,1}</code>”等价于“<code>o?</code>”。请注意在逗号和两个数之间不能有空格。</td>
+                </tr>
+                <tr>
+                    <td>?</td>
+                    <td>当该字符紧跟在任何一个其他限制符（*,+,?，{<span style="font-family:Times New Roman; font-style:italic;">n</span>}，{<span style="font-family:Times New Roman; font-style:italic;">n</span>,}，{<span style="font-family:Times New Roman; font-style:italic;">n</span>,<span style="font-family:Times New Roman; font-style:italic;">m</span>}）后面时，匹配模式是非贪婪的。非贪婪模式尽可能少的匹配所搜索的字符串，而默认的贪婪模式则尽可能多的匹配所搜索的字符串。例如，对于字符串“<code>oooo</code>”，“<code>o+?</code>”将匹配单个“<code>o</code>”，而“<code>o+</code>”将匹配所有“<code>o</code>”。</td>
+                </tr>
+                <tr>
+                    <td>.</td>
+                    <td>匹配除“<code>\</code><span style="font-family:Times New Roman; font-style:italic;"><code>n</code></span>”之外的任何单个字符。要匹配包括“<code>\</code><span style="font-family:Times New Roman; font-style:italic;"><code>n</code></span>”在内的任何字符，请使用像“<code>(.|\n)</code>”的模式。</td>
+                </tr>
+                <tr>
+                    <td>(pattern)</td>
+                    <td>匹配pattern并获取这一匹配。所获取的匹配可以从产生的Matches集合得到，在VBScript中使用SubMatches集合，在JScript中则使用$0…$9属性。要匹配圆括号字符，请使用“<code>\(</code>”或“<code>\)</code>”。</td>
+                </tr>
+                <tr>
+                    <td>(?:pattern)</td>
+                    <td>匹配pattern但不获取匹配结果，也就是说这是一个非获取匹配，不进行存储供以后使用。这在使用或字符“<code>(|)</code>”来组合一个模式的各个部分是很有用。例如“<code>industr(?:y|ies)</code>”就是一个比“<code>industry|industries</code>”更简略的表达式。</td>
+                </tr>
+                <tr>
+                    <td>(?=pattern)</td>
+                    <td>正向肯定预查，在任何匹配pattern的字符串开始处匹配查找字符串。这是一个非获取匹配，也就是说，该匹配不需要获取供以后使用。例如，“<code>Windows(?=95|98|NT|2000)</code>”能匹配“<code>Windows2000</code>”中的“<code>Windows</code>”，但不能匹配“<code>Windows3.1</code>”中的“<code>Windows</code>”。预查不消耗字符，也就是说，在一个匹配发生后，在最后一次匹配之后立即开始下一次匹配的搜索，而不是从包含预查的字符之后开始。</td>
+                </tr>
+                <tr>
+                    <td>(?!pattern)</td>
+                    <td>正向否定预查，在任何不匹配pattern的字符串开始处匹配查找字符串。这是一个非获取匹配，也就是说，该匹配不需要获取供以后使用。例如“<code>Windows(?!95|98|NT|2000)</code>”能匹配“<code>Windows3.1</code>”中的“<code>Windows</code>”，但不能匹配“<code>Windows2000</code>”中的“<code>Windows</code>”。预查不消耗字符，也就是说，在一个匹配发生后，在最后一次匹配之后立即开始下一次匹配的搜索，而不是从包含预查的字符之后开始</td>
+                </tr>
+                <tr>
+                    <td>(?&lt;=pattern)</td>
+                    <td>反向肯定预查，与正向肯定预查类拟，只是方向相反。例如，“<code>(?&lt;=95|98|NT|2000)Windows</code>”能匹配“<code>2000Windows</code>”中的“<code>Windows</code>”，但不能匹配“<code>3.1Windows</code>”中的“<code>Windows</code>”。</td>
+                </tr>
+                <tr>
+                    <td>(?&lt;!pattern)</td>
+                    <td>反向否定预查，与正向否定预查类拟，只是方向相反。例如“<code>(?&lt;!95|98|NT|2000)Windows</code>”能匹配“<code>3.1Windows</code>”中的“<code>Windows</code>”，但不能匹配“<code>2000Windows</code>”中的“<code>Windows</code>”。</td>
+                </tr>
+                <tr>
+                    <td>x|y</td>
+                    <td>匹配x或y。例如，“<code>z|food</code>”能匹配“<code>z</code>”或“<code>food</code>”。“<code>(z|f)ood</code>”则匹配“<code>zood</code>”或“<code>food</code>”。</td>
+                </tr>
+                <tr>
+                    <td>[xyz]</td>
+                    <td>字符集合。匹配所包含的任意一个字符。例如，“<code>[abc]</code>”可以匹配“<code>plain</code>”中的“<code>a</code>”。</td>
+                </tr>
+                <tr>
+                    <td>[^xyz]</td>
+                    <td>负值字符集合。匹配未包含的任意字符。例如，“<code>[^abc]</code>”可以匹配“<code>plain</code>”中的“<code>p</code>”。</td>
+                </tr>
+                <tr>
+                    <td>[a-z]</td>
+                    <td>字符范围。匹配指定范围内的任意字符。例如，“<code>[a-z]</code>”可以匹配“<code>a</code>”到“<code>z</code>”范围内的任意小写字母字符。</td>
+                </tr>
+                <tr>
+                    <td>[^a-z]</td>
+                    <td>负值字符范围。匹配任何不在指定范围内的任意字符。例如，“<code>[^a-z]</code>”可以匹配任何不在“<code>a</code>”到“<code>z</code>”范围内的任意字符。</td>
+                </tr>
+                <tr>
+                    <td>\b</td>
+                    <td>匹配一个单词边界，也就是指单词和空格间的位置。例如，“<code>er\b</code>”可以匹配“<code>never</code>”中的“<code>er</code>”，但不能匹配“<code>verb</code>”中的“<code>er</code>”。</td>
+                </tr>
+                <tr>
+                    <td>\B</td>
+                    <td>匹配非单词边界。“<code>er\B</code>”能匹配“<code>verb</code>”中的“<code>er</code>”，但不能匹配“<code>never</code>”中的“<code>er</code>”。</td>
+                </tr>
+                <tr>
+                    <td>\cx</td>
+                    <td>匹配由x指明的控制字符。例如，\cM匹配一个Control-M或回车符。x的值必须为A-Z或a-z之一。否则，将c视为一个原义的“<code>c</code>”字符。</td>
+                </tr>
+                <tr>
+                    <td>\d</td>
+                    <td>匹配一个数字字符。等价于[0-9]。</td>
+                </tr>
+                <tr>
+                    <td>\D</td>
+                    <td>匹配一个非数字字符。等价于[^0-9]。</td>
+                </tr>
+                <tr>
+                    <td>\f</td>
+                    <td>匹配一个换页符。等价于\x0c和\cL。</td>
+                </tr>
+                <tr>
+                    <td>\n</td>
+                    <td>匹配一个换行符。等价于\x0a和\cJ。</td>
+                </tr>
+                <tr>
+                    <td>\r</td>
+                    <td>匹配一个回车符。等价于\x0d和\cM。</td>
+                </tr>
+                <tr>
+                    <td>\s</td>
+                    <td>匹配任何空白字符，包括空格、制表符、换页符等等。等价于[ \f\n\r\t\v]。</td>
+                </tr>
+                <tr>
+                    <td>\S</td>
+                    <td>匹配任何非空白字符。等价于[^ \f\n\r\t\v]。</td>
+                </tr>
+                <tr>
+                    <td>\t</td>
+                    <td>匹配一个制表符。等价于\x09和\cI。</td>
+                </tr>
+                <tr>
+                    <td>\v</td>
+                    <td>匹配一个垂直制表符。等价于\x0b和\cK。</td>
+                </tr>
+                <tr>
+                    <td>\w</td>
+                    <td>匹配包括下划线的任何单词字符。等价于“<code>[A-Za-z0-9_]</code>”。</td>
+                </tr>
+                <tr>
+                    <td>\W</td>
+                    <td>匹配任何非单词字符。等价于“<code>[^A-Za-z0-9_]</code>”。</td>
+                </tr>
+                <tr>
+                    <td>\x<span style="font-family:Times New Roman; font-style:italic;">n</span></td>
+                    <td>匹配<span style="font-family:Times New Roman; font-style:italic;">n</span>，其中<span style="font-family:Times New Roman; font-style:italic;">n</span>为十六进制转义值。十六进制转义值必须为确定的两个数字长。例如，“<code>\x41</code>”匹配“<code>A</code>”。“<code>\x041</code>”则等价于“<code>\x04&amp;1</code>”。正则表达式中可以使用ASCII编码。.</td>
+                </tr>
+                <tr>
+                    <td>\<span style="font-family:Times New Roman; font-style:italic;">num</span></td>
+                    <td>匹配<span style="font-family:Times New Roman; font-style:italic;">num</span>，其中<span style="font-family:Times New Roman; font-style:italic;">num</span>是一个正整数。对所获取的匹配的引用。例如，“<code>(.)\1</code>”匹配两个连续的相同字符。</td>
+                </tr>
+                <tr>
+                    <td>\<span style="font-family:Times New Roman; font-style:italic;">n</span></td>
+                    <td>标识一个八进制转义值或一个向后引用。如果\<span style="font-family:Times New Roman; font-style:italic;">n</span>之前至少<span style="font-family:Times New Roman; font-style:italic;">n</span>个获取的子表达式，则<span style="font-family:Times New Roman; font-style:italic;">n</span>为向后引用。否则，如果<span style="font-family:Times New Roman; font-style:italic;">n</span>为八进制数字（0-7），则<span style="font-family:Times New Roman; font-style:italic;">n</span>为一个八进制转义值。</td>
+                </tr>
+                <tr>
+                    <td>\<span style="font-family:Times New Roman; font-style:italic;">nm</span></td>
+                    <td>标识一个八进制转义值或一个向后引用。如果\<span style="font-family:Times New Roman; font-style:italic;">nm</span>之前至少有<span style="font-family:Times New Roman; font-style:italic;">nm</span>个获得子表达式，则<span style="font-family:Times New Roman; font-style:italic;">nm</span>为向后引用。如果\<span style="font-family:Times New Roman; font-style:italic;">nm</span>之前至少有<span style="font-family:Times New Roman; font-style:italic;">n</span>个获取，则<span style="font-family:Times New Roman; font-style:italic;">n</span>为一个后跟文字<span style="font-family:Times New Roman; font-style:italic;">m</span>的向后引用。如果前面的条件都不满足，若<span style="font-family:Times New Roman; font-style:italic;">n</span>和<span style="font-family:Times New Roman; font-style:italic;">m</span>均为八进制数字（0-7），则\<span style="font-family:Times New Roman; font-style:italic;">nm</span>将匹配八进制转义值<span style="font-family:Times New Roman; font-style:italic;">nm</span>。</td>
+                </tr>
+                <tr>
+                    <td>\<span style="font-family:Times New Roman; font-style:italic;">nml</span></td>
+                    <td>如果<span style="font-family:Times New Roman; font-style:italic;">n</span>为八进制数字（0-3），且<span style="font-family:Times New Roman; font-style:italic;">m和l</span>均为八进制数字（0-7），则匹配八进制转义值<span style="font-family:Times New Roman; font-style:italic;">nm</span>l。</td>
+                </tr>
+                <tr>
+                    <td>\u<span style="font-family:Times New Roman; font-style:italic;">n</span></td>
+                    <td>匹配<span style="font-family:Times New Roman; font-style:italic;">n</span>，其中<span style="font-family:Times New Roman; font-style:italic;">n</span>是一个用四个十六进制数字表示的Unicode字符。例如，\u00A9匹配版权符号（©）。</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+					
+					
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="side-nav">
+			<a href="#">留言</a>
+			<a class="btnHelp" href="javscript:void(0)">赞助</a>
+			<a id="backTop" href="javascript:void(0)" style="display: none;">置顶</a>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title" id="myModalLabel">感谢赞助</h4>
+					</div>
+					<div class="modal-body">
+						<table class="help-table">
+							<tbody>
+								<tr>
+									<td>
+										<img class="help-image" src="../Images/wx.png">
+									</td>
+									<td>
+										<img class="help-image" src="../Images/zf.png">
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/beyond.min.js"></script>
+
+		<input id="hiddenToken" name="hiddenToken" type="hidden" value="00000000-0000-0000-0000-000000000000636385058528971380">
+
+		<script>
+			$(function() {
+				$(window).scroll(function() {
+					if($(window).scrollTop() >= 200) {
+						$('#backTop').fadeIn(300);
+					} else {
+						$('#backTop').fadeOut(300);
+					}
+				});
+				$('#backTop').click(function() {
+					$('html,body').animate({
+						scrollTop: '0px'
+					}, 500);
+				});
+
+				$(document).on("click", ".btnHelp", function() {
+					$("#myModal").modal("show");
+				});
+			});
+
+			$(function() {
+				var hash = location.hash;
+				if(hash) {
+					var $nav = $("#myTab");
+					var $cur = $nav.find('a[href="' + hash + '"]');
+					$cur.click();
+				}
+			});
+
+			(function() {
+				//当前页导航高亮显示
+				var isIndex = true;
+				var href = location.href.toLowerCase();
+				var $lis = $(".nav-pill").children("li");
+				$.each($lis, function() {
+					var nav = $(this).attr("data-flag");
+					if(href.indexOf(nav) > 0) {
+						$(this).addClass("active");
+						isIndex = false;
+						return false;
+					}
+				});
+
+				if(isIndex)
+					$(".nav-pill li").eq(0).addClass("active");
+			}());
+		</script>
+
+	</body>
+
+</html>

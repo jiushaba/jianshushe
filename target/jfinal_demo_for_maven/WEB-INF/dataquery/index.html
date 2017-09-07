@@ -14,11 +14,11 @@
 		<link href="../css/demo.min.css" rel="stylesheet">
 		<link href="../css/typicons.min.css" rel="stylesheet">
 		<link href="../css/animate.min.css" rel="stylesheet">
-		<link href="../http://www.ofmonkey.com/query/local" rel="stylesheet" type="text/css">
 		<link href="../css/simple.css" rel="stylesheet">
 
 		<script src="../jquery/jquery-3.2.1.min.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="http://tajs.qq.com/stats?sId=63576587" charset="UTF-8"></script>
 
 	</head>
 
@@ -83,7 +83,7 @@
 							</a>
 						</li>
 						<li data-flag="front">
-							<a href="#">
+							<a href="/front/color">
 								<i class="menu-icon glyphicon glyphicon-th"></i>
 								<span class="menu-text"> 前端工具 </span>
 							</a>
@@ -125,13 +125,13 @@
 							</a>
 						</li>
 						<li data-flag="regex">
-							<a href="#">
+							<a href="/regex/test">
 								<i class="menu-icon glyphicon glyphicon-book"></i>
 								<span class="menu-text"> 正则表达式 </span>
 							</a>
 						</li>
 						<li data-flag="ercode">
-							<a href="#">
+							<a href="/ercode/create">
 								<i class="menu-icon glyphicon glyphicon-qrcode"></i>
 								<span class="menu-text">
                                 二维码生成
@@ -139,7 +139,7 @@
 							</a>
 						</li>
 						<li data-flag="barcode">
-							<a href="#">
+							<a href="/barcode/create">
 								<i class="menu-icon glyphicon glyphicon-barcode"></i>
 								<span class="menu-text">
                                 条形码生成
@@ -182,31 +182,31 @@
 								<tbody>
 									<tr>
 										<td style="width:150px;">本机IP</td>
-										<td>120.41.211.127</td>
+										<td>#(ip??)</td>
 									</tr>
 									<tr>
 										<td>用户代理</td>
-										<td>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</td>
+										<td>#(ua??)</td>
 									</tr>
 									<tr>
 										<td>浏览器类型</td>
-										<td>Chrome</td>
-									</tr>
-									<tr>
-										<td>浏览器版本</td>
-										<td>55.0</td>
-									</tr>
+										<td>#(browserType??)</td>
+									</tr>									
 									<tr>
 										<td>浏览器语言</td>
-										<td>zh-CN, zh;q=0.8</td>
+										<td>#(encoding??)</td>
 									</tr>
 									<tr>
 										<td>分辨率</td>
-										<td id="tdRatio">1920 * 1080</td>
+										<td id="tdRatio"></td>
 									</tr>
 									<tr>
 										<td>操作系统</td>
-										<td>Windows 7</td>
+										<td>#(systemInfo??)</td>
+									</tr>
+									<tr>
+										<td>主机名</td>
+										<td>#(hostName??)</td>
 									</tr>
 								</tbody>
 							</table>
@@ -300,7 +300,11 @@
 					$(".nav-pill li").eq(0).addClass("active");
 			}());
 		</script>
-
+		<script>
+        $(function () {
+            $("#tdRatio").html(window.screen.width + " * " + window.screen.height);
+        })
+   		 </script>
 	</body>
 
 </html>

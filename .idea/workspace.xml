@@ -1,216 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jfinal_demo_for_maven:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="584e36cf-472c-45fa-a384-829a9211b84b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sun.misc.BASE64Decoder.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/link/link.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/phonequery/phonequery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/regex/docs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/regex/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todayquery/todayquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/dbc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/guid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/len.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/unix.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/upper.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/url.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/unit/binary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/unit/time.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/verifycode.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/yumingquery/yumingquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/beyond.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-maizi.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/demo.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/docs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/form-elements.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/hm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery.bigcolorpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/pageloader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/simple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/skins.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/spectrum.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/spectrum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/typicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/vue.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/weather-icons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/error/401.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/error/403.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/error/404.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/error/500.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/jquery-barcode-2.0.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/jquery.qrcode-0.12.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/ascii.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/beyond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/binary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/dbc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/guid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/hex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/htmlformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-extend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.backstretch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.bigcolorpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jsformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/len.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/pageloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/rem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/showdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/unix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/upper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/xml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/启动说明/blog.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/启动说明/启动说明.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/id_rsa_oschina" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/id_rsa_oschina.pub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/jianshushe.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/encrypt/filemd5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/filemd5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/spark-md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jianshushe.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/1@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/404img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/Connect_logo_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/a1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/a2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/apple-touch-icon-114-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/apple-touch-icon-144-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/apple-touch-icon-57-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/apple-touch-icon-72-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/barcode/create.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/aliyun/api/gateway/demo/Client$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/barcode/BarcodeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/common/Interceptor/DeviceTypeInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/common/model/Sys.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/encode/EncodeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/encrypt/EncryptController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/ercode/ErcodeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/format/FormatController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/front/FrontController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/login/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/nav/link/LinkController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/regex/RegexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/transfer/TransferController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/unit/UnitController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/Base64Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/HttpRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/MD5Tools.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/SystemUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/VerifyImage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/VerifyResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/jianshushe.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/qqconnectconfig.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/ascii.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/unicode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/url.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/utf8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encrypt/base64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encrypt/filemd5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encrypt/image64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encrypt/md5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/ercode/create.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/css.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/json.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/sql.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/front/hex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/front/markdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/front/rem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/link/link.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/login/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/login/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/regex/docs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/regex/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/dbc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/guid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/len.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/unix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/upper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/url.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/unit/binary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/unit/time.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/verifycode.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/form-elements.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/jquery.bigcolorpicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/pageloader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/error/401.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/error/403.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/error/404.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/error/500.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/jquery/jquery-barcode-2.0.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/jquery/jquery.qrcode-0.12.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/ascii.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/binary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/dbc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/filemd5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/guid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/hex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/htmlformat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/jquery-extend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/jquery.backstretch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/jquery.bigcolorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/jsformat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/len.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/pageloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/rem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/showdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/spark-md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/unix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/upper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/url.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/1@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/404img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/Connect_logo_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/a1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/a2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/apple-touch-icon-114-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/apple-touch-icon-57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/apple-touch-icon-72-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/Images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/aliyun/api/gateway/demo/Client$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/barcode/BarcodeController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/common/Interceptor/DeviceTypeInterceptor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/common/model/Sys.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/encode/EncodeController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/encrypt/EncryptController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/ercode/ErcodeController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/format/FormatController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/front/FrontController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/login/LoginController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/nav/link/LinkController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/regex/RegexController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/transfer/TransferController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/unit/UnitController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/Base64Util.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/HttpRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/MD5Tools.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/SystemUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/VerifyImage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/util/VerifyResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/barcode/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/qqconnectconfig.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/ascii.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/unicode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/url.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encode/utf8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encrypt/base64.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encrypt/image64.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/encrypt/md5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/ercode/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/sql.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/format/xml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/front/hex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/front/markdown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/front/rem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/link/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/login/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/login/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/regex/docs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/regex/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/dbc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/guid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/len.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/unix.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/upper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/transfer/url.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/unit/binary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/unit/time.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/verifycode.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/form-elements.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/jquery.bigcolorpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/pageloader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/error/401.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/error/403.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/error/404.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/error/500.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/jquery/jquery-barcode-2.0.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/jquery/jquery.qrcode-0.12.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/ascii.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/binary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/dbc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/guid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/hex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/htmlformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/jquery-extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/jquery.backstretch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/jquery.bigcolorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/jsformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/len.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/pageloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/rem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/showdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/unix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/upper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.demo/jfinal_demo_for_maven/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.demo/jfinal_demo_for_maven/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/demo/common/DemoConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/demo/common/DemoConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/demo/encrypt/EncryptController.class" afterPath="$PROJECT_DIR$/target/classes/com/demo/encrypt/EncryptController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven.war" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/aliyun/api/gateway/demo/Client.class" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/aliyun/api/gateway/demo/Client.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/aliyun/api/gateway/demo/Request.class" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/aliyun/api/gateway/demo/Request.class" />
@@ -242,124 +146,56 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/query/PhoneQueryContoller.class" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/query/PhoneQueryContoller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/query/TodayQueryContoller.class" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/query/TodayQueryContoller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/query/YuMingQueryContoller.class" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/com/demo/query/YuMingQueryContoller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/lib/usm.project.common.v2-USM_V1.0.0.jar" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/lib/usm.project.common.v2-USM_V1.0.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/favicon.ico" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_dreampie_jfinal_akka_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_dreampie_jfinal_akka_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_dreampie_jfinal_mailer_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_dreampie_jfinal_mailer_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_dreampie_jfinal_slf4j_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_dreampie_jfinal_slf4j_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_dreampie_jfinal_utils_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_dreampie_jfinal_utils_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_15.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_15.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_collections_google_collections_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_collections_google_collections_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_cos_2017_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_cos_2017_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jetty_server_8_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jetty_server_8_1_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_3_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_3_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_11_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_11_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_sauronsoftware_cron4j_cron4j_2_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_sauronsoftware_cron4j_cron4j_2_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jmimemagic_jmimemagic_0_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jmimemagic_jmimemagic_0_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_20.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_3_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk16_1_46.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk16_1_46.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_8_1_8_v20121106.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_8_1_8_v20121106.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_8_v20121106.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_8_v20121106.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_8_v20121106.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_8_v20121106.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_8_1_8_v20121106.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_8_1_8_v20121106.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_8_1_8_v20121106.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_8_1_8_v20121106.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_8_1_8_v20121106.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_8_1_8_v20121106.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_8_v20121106.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_8_v20121106.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_8_1_8_v20121106.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_8_1_8_v20121106.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_20.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_3_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_3_8_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_http_3_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_http_3_8_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_upload_3_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_upload_3_8_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20140107.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20140107.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_simpleframework_simple_xml_2_7_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_simpleframework_simple_xml_2_7_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_1_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__usm_projects_usm_project_common_v2_USM_V1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__usm_projects_usm_project_common_v2_USM_V1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_7_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_7_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xmlParserAPIs_2_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xmlParserAPIs_2_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_3_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jfinal_demo_for_maven.iml" afterPath="$PROJECT_DIR$/jfinal_demo_for_maven.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jfinal_demo_for_maven.log" afterPath="$PROJECT_DIR$/jfinal_demo_for_maven.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qqconnect.log" afterPath="$PROJECT_DIR$/qqconnect.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/Client.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/Request.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/Request.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/Response.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/Response.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/ContentType.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/ContentType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/HttpHeader.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/HttpHeader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/HttpMethod.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/HttpMethod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/HttpSchema.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/HttpSchema.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/SystemHeader.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/constant/SystemHeader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/enums/Method.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/enums/Method.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/util/HttpUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/util/HttpUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/util/HttpUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/util/HttpUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/util/MessageDigestUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/util/MessageDigestUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/util/SignUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliyun/api/gateway/demo/util/SignUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/demo/encrypt/EncryptController.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/encrypt/EncryptController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/a_little_config.txt" afterPath="$PROJECT_DIR$/src/main/resources/a_little_config.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/encrypt/md5.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/encrypt/md5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/link/link.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/link/link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/phonequery/phonequery.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/phonequery/phonequery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/regex/docs.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/regex/docs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/regex/test.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/regex/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todayquery/todayquery.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todayquery/todayquery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/dbc.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/dbc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/guid.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/guid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/len.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/len.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/unix.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/unix.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/upper.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/upper.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/url.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/transfer/url.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/unit/binary.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/unit/binary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/unit/time.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/unit/time.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/verifycode.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/verifycode.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/yumingquery/yumingquery.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/yumingquery/yumingquery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-maizi.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-maizi.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/form-elements.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/form-elements.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/jquery.bigcolorpicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery.bigcolorpicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/simple.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/simple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/simple.js" afterPath="$PROJECT_DIR$/src/main/webapp/css/simple.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/skins.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/css/skins.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/spectrum.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/spectrum.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jquery/jquery-barcode-2.0.1.js" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/jquery-barcode-2.0.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/ascii.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/ascii.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/base.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/base64.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/beyond.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/beyond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/binary.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/binary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/common.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/dbc.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/dbc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/guid.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/guid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/hex.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/hex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/htmlformat.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/htmlformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-extend.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-extend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.bigcolorpicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.bigcolorpicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/jsformat.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jsformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/json.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/len.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/len.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/markdown.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/rem.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/rem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/showdown.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/showdown.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/time.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/unix.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/unix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/upper.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/upper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/url.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/xml.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/xml.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/a_little_config.txt" afterPath="$PROJECT_DIR$/target/classes/a_little_config.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/ascii/ascii.html" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/ascii/ascii.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/a_little_config.txt" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/classes/a_little_config.txt" />
@@ -375,25 +211,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/ipaddressquery/ipaddressquery.html" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/ipaddressquery/ipaddressquery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/phonequery/phonequery.html" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/phonequery/phonequery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/todayquery/todayquery.html" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/todayquery/todayquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/yumingquery/yumingquery.html" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/WEB-INF/yumingquery/yumingquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/animate.css" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap.css" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/docs.js" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/docs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/hm.js" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/hm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/spectrum.css" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/spectrum.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/spectrum.js" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/spectrum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/vue.min.js" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/css/vue.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/jquery/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/jquery/jquery-3.2.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/bootstrap.js" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/npm.js" afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/启动说明/blog.sql" afterPath="$PROJECT_DIR$/启动说明/blog.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/启动说明/启动说明.txt" afterPath="$PROJECT_DIR$/启动说明/启动说明.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -409,8 +230,8 @@
       <file leaf-file-name="DemoConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+            <state relative-caret-position="209">
+              <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -424,6 +245,14 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/a_little_config.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -475,6 +304,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jianshushe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianshushe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianshushe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -597,6 +440,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianshushe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianshushe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interceptor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1045,12 +926,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504761364133</updated>
-      <workItem from="1504761365462" duration="160000" />
+      <workItem from="1504761365462" duration="743000" />
     </task>
+    <task id="LOCAL-00001" summary="修复bug">
+      <created>1504761599016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504761599016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160000" />
+    <option name="totallyTimeSpent" value="743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1073,10 +962,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1094,6 +983,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修复bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复bug" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -1103,10 +996,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/a_little_config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        <state relative-caret-position="209">
+          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           <folding />
         </state>
       </provider>

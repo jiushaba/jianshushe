@@ -1,4 +1,4 @@
-jdbcUrl = jdbc:mysql://localhost/jfinal_demo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
-user = root
-password =123456
+jdbcUrl = jdbc:mysql://127.0.0.1/jianshushe?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = txchao
+password =WWW.zdlog.com
 devMode = true

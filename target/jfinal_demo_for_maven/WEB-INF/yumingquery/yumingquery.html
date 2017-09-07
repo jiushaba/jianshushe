@@ -16,10 +16,11 @@
 		<link href="../css/animate.min.css" rel="stylesheet">
 		<link href="../http://www.ofmonkey.com/query/local" rel="stylesheet" type="text/css">
 		<link href="../css/simple.css" rel="stylesheet">
-
+		<link href="../css/layer.css" rel="stylesheet">
 		<script src="../jquery/jquery-3.2.1.min.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
-
+		<script src="../js/layer.js"></script>
+		<script type="text/javascript" src="http://tajs.qq.com/stats?sId=63576587" charset="UTF-8"></script>
 	</head>
 
 	<body>
@@ -83,7 +84,7 @@
 							</a>
 						</li>
 						<li data-flag="front">
-							<a href="#">
+							<a href="/front/color">
 								<i class="menu-icon glyphicon glyphicon-th"></i>
 								<span class="menu-text"> 前端工具 </span>
 							</a>
@@ -125,13 +126,13 @@
 							</a>
 						</li>
 						<li data-flag="regex">
-							<a href="#">
+							<a href="/regex/test">
 								<i class="menu-icon glyphicon glyphicon-book"></i>
 								<span class="menu-text"> 正则表达式 </span>
 							</a>
 						</li>
 						<li data-flag="ercode">
-							<a href="#">
+							<a href="/ercode/create">
 								<i class="menu-icon glyphicon glyphicon-qrcode"></i>
 								<span class="menu-text">
                                 二维码生成
@@ -139,7 +140,7 @@
 							</a>
 						</li>
 						<li data-flag="barcode">
-							<a href="#">
+							<a href="/barcode/create">
 								<i class="menu-icon glyphicon glyphicon-barcode"></i>
 								<span class="menu-text">
                                 条形码生成
@@ -256,7 +257,7 @@
 				},
 				success: function(res) {
 					if(res.ret_code == "-1") {
-						alert(res.msg)
+						layer.msg(res.msg, {icon: 2});
 						$("#quanqiu").html(" ")
 						$("#bendi").html(" ")
 					} else {

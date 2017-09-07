@@ -16,6 +16,7 @@
 		<link href="/css/simple.css" rel="stylesheet">
 		<script src="/jquery/jquery-3.2.1.min.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
+	
 		<script>
 			$(function() {
 				$('.funs-container li').hover(function() {
@@ -53,6 +54,7 @@
 				s.parentNode.insertBefore(bp, s);
 			})();
 		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	</head>
 
@@ -79,7 +81,7 @@
 					</a>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="#home">友情链接</a>
+							<a href="/link">友情链接</a>
 						</li>
 						<li>
 							<a href="#bbs">赞助名单</a>
@@ -117,7 +119,7 @@
 							</a>
 						</li>
 						<li data-flag="front">
-							<a href="#">
+							<a href="/front/color">
 								<i class="menu-icon glyphicon glyphicon-th"></i>
 								<span class="menu-text"> 前端工具 </span>
 							</a>
@@ -129,51 +131,49 @@
 							</a>
 						</li>
 						<li data-flag="encode">
-							<a href="#">
+							<a href="/encode/url">
 								<i class="menu-icon glyphicon glyphicon-list-alt"></i>
 								<span class="menu-text"> 编码解码 </span>
 							</a>
 						</li>
 						<li data-flag="encrypt">
-							<a href="#">
+							<a href="/encrypt/md5">
 								<i class="menu-icon glyphicon glyphicon-screenshot"></i>
 								<span class="menu-text"> 加密解密 </span>
 							</a>
 						</li>
 						<li data-flag="transfer">
-							<a href="#">
+							<a href="/transfer/dbc">
 								<i class="menu-icon glyphicon glyphicon-edit"></i>
 								<span class="menu-text"> 字符转换 </span>
 							</a>
 						</li>
 						<li data-flag="unit">
-							<a href="#">
+							<a href="/unit/binary">
 								<i class="menu-icon glyphicon glyphicon-gbp"></i>
 								<span class="menu-text"> 单位换算 </span>
 							</a>
 						</li>
 						<li data-flag="format">
-							<a href="#">
+							<a href="/format/js">
 								<i class="menu-icon glyphicon glyphicon-asterisk"></i>
 								<span class="menu-text"> 代码格式化 </span>
 							</a>
 						</li>
 						<li data-flag="regex">
-							<a href="#">
+							<a href="/regex/test">
 								<i class="menu-icon glyphicon glyphicon-book"></i>
 								<span class="menu-text"> 正则表达式 </span>
 							</a>
 						</li>
 						<li data-flag="ercode">
-							<a href="#">
+							<a href="/ercode/create">
 								<i class="menu-icon glyphicon glyphicon-qrcode"></i>
-								<span class="menu-text">
-                                二维码生成
-                            </span>
+								<span class="menu-text">二维码生成</span>
 							</a>
 						</li>
 						<li data-flag="barcode">
-							<a href="#">
+							<a href="/barcode/create">
 								<i class="menu-icon glyphicon glyphicon-barcode"></i>
 								<span class="menu-text">
                                 条形码生成
@@ -192,314 +192,15 @@
 
 					<div>
 						<ul class="funs-container">
+							#for(obj:link??)
 							<li class="">
-								<a href="/query" class="funs-title">本机IP</a>
+								<a href="#(obj.link)" class="funs-title">#(obj.name??)</a>
 								<p class="funs-desc">
-									<span class="funs-count">使用次数：2854</span>
-									<a href="/query" class="btn btn-xs funs-button btn-default">使用</a>
+									<span class="funs-count">使用次数：#(obj.number)</span>
+									<a href="#(obj.link)" class="btn btn-xs funs-button btn-default">使用</a>
 								</p>
 							</li>
-							<li class="">
-								<a href="/httpquery" class="funs-title">http模拟查询</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：1468</span>
-									<a href="/httpquery" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/ipaddressquery" class="funs-title">IP归属地查询</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：977</span>
-									<a href="/ipaddressquery" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/yumingquery" class="funs-title">域名Alexa查询</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：912</span>
-									<a href="/yumingquery" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/phonequery" class="funs-title">手机归属地查询</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：886</span>
-									<a href="/phonequery" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/todayquery" class="funs-title">历史上的今天</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：1227</span>
-									<a href="/todayquery" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/front/color" class="funs-title">在线调色板</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：2762</span>
-									<a href="/front/color" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/front/hex" class="funs-title">RGB转16进制</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：962</span>
-									<a href="/front/hex" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/front/rem" class="funs-title">px转rem</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：3359</span>
-									<a href="/front/rem" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/front/markdown" class="funs-title">在线MarkDown</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：843</span>
-									<a href="/front/markdown" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/entity/json" class="funs-title">json生成实体</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：2406</span>
-									<a href="/entity/json" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/entity/xml" class="funs-title">xml生成实体</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：774</span>
-									<a href="/entity/xml" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/entity/string" class="funs-title">字符串生成实体</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：612</span>
-									<a href="/entity/string" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/encode/url" class="funs-title">Url编码解码</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：2206</span>
-									<a href="/encode/url" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/encode/html" class="funs-title">Html编码解码</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：523</span>
-									<a href="/encode/html" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/encode/ascii" class="funs-title">ASCII编码解码</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：427</span>
-									<a href="/encode/ascii" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/encode/utf8" class="funs-title">Utf-8编码解码</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：575</span>
-									<a href="/encode/utf8" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/encode/unicode" class="funs-title">Unicode编码解码</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：464</span>
-									<a href="/encode/unicode" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/encrypt/md5" class="funs-title">MD5加密</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：2072</span>
-									<a href="/encrypt/md5" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/encrypt/base64" class="funs-title">Base64加密解密</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：723</span>
-									<a href="/encrypt/base64" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/encrypt/image64" class="funs-title">图片转Base64</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：613</span>
-									<a href="/encrypt/image64" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/encrypt/filemd5" class="funs-title">文件转MD5</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：499</span>
-									<a href="/encrypt/filemd5" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/transfer/dbc" class="funs-title">全角半角转换</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：1488</span>
-									<a href="/transfer/dbc" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/transfer/upper" class="funs-title">大小写转换</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：346</span>
-									<a href="/transfer/upper" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/transfer/unix" class="funs-title">Unix时间戳</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：456</span>
-									<a href="/transfer/unix" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/transfer/len" class="funs-title">计算字符长度</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：335</span>
-									<a href="/transfer/len" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/transfer/guid" class="funs-title">生成GUID</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：351</span>
-									<a href="/transfer/guid" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/transfer/url" class="funs-title">URL参数格式化</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：732</span>
-									<a href="/transfer/url" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/unit/binary" class="funs-title">进制转换</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：1267</span>
-									<a href="/unit/binary" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/unit/time" class="funs-title">时间转换</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：378</span>
-									<a href="/unit/time" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/format/js" class="funs-title">js压缩格式化</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：2779</span>
-									<a href="/format/js" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/format/html" class="funs-title">html压缩格式化</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：735</span>
-									<a href="/format/html" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/format/css" class="funs-title">css压缩格式化</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：699</span>
-									<a href="/format/css" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/format/json" class="funs-title">json压缩格式化</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：1705</span>
-									<a href="/format/json" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/format/xml" class="funs-title">xml压缩格式化</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：704</span>
-									<a href="/format/xml" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/format/sql" class="funs-title">sql压缩格式化</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：579</span>
-									<a href="/format/sql" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/regex/test" class="funs-title">正则在线测试</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：1898</span>
-									<a href="/regex/test" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/ercode/create" class="funs-title">二维码生成</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：1690</span>
-									<a href="/ercode/create" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/barcode/create" class="funs-title">条形码生成</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：1270</span>
-									<a href="/barcode/create" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/docs/http" class="funs-title">Http状态码</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：1434</span>
-									<a href="/docs/http" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/docs/contenttype" class="funs-title">Content-Type</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：509</span>
-									<a href="/docs/contenttype" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/docs/html" class="funs-title">Html转义符</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：453</span>
-									<a href="/docs/html" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li>
-								<a href="/docs/ascii" class="funs-title">ASCII码表</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：408</span>
-									<a href="/docs/ascii" class="btn btn-default btn-xs funs-button">使用</a>
-								</p>
-							</li>
-							<li class="">
-								<a href="/regex/docs" class="funs-title">常用正则参考</a>
-								<p class="funs-desc">
-									<span class="funs-count">使用次数：874</span>
-									<a href="/regex/docs" class="btn btn-xs funs-button btn-default">使用</a>
-								</p>
-							</li>
+							#end						
 						</ul>
 					</div>
 
@@ -587,7 +288,9 @@
 				if(isIndex)
 					$(".nav-pill li").eq(0).addClass("active");
 			}());
+			
 		</script>
+		
 
 	</body>
 
