@@ -3,7 +3,10 @@
 
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<title> 时间换算| 神经网络 |图片转Base64 |ASCII码表 |md5加密 - -程序员在线工具</title>
+		<meta name="keywords"
+			  content="json格式化 | 二维码制作 |条形码制作 |http模拟查询 |在线调色板 |字符串生成实体| md5加密 | 正则在线测试 | 常用正则参考 |时间转换 |在线工具 |">
+		<meta name="description" content="打造好用的程序员在线工具----键鼠工作室">
 
 		<link rel="stylesheet" href="../css/bootstrap.min.css" />
 		<link rel="stylesheet" href="../css/bootstrap.css" />
@@ -25,7 +28,7 @@
 
 	<body>
 		<!--导航-->
-		<nav class="navbar navbar-default navbar-fixed-top" style="background:#101010;">
+		<nav class="navbar navbar-default navbar-fixed-top" style="background:#090723;">
 			<div class="container-fluid">
 				<!--小屏幕导航按钮和logo-->
 				<div class="navbar-header">
@@ -69,15 +72,15 @@
 		<!--导航-->
 		<div class="main-container container-fluid">
 			<div class="page-container">
-				<div class="page-sidebar" id="sidebar">
-					<ul class="nav sidebar-menu nav-pill">
-						<li>
+				<div class="page-sidebar col-md-5" id="sidebar" >
+					<ul class="nav sidebar-menu nav-pill  ">
+						<li class="active">
 							<a href="/">
 								<i class="menu-icon glyphicon glyphicon-home"></i>
 								<span class="menu-text"> 所有功能 </span>
 							</a>
 						</li>
-						<li data-flag="query" >
+						<li data-flag="query">
 							<a href="/query">
 								<i class="menu-icon glyphicon glyphicon-search"></i>
 								<span class="menu-text"> 数据查询 </span>
@@ -90,42 +93,42 @@
 							</a>
 						</li>
 						<li data-flag="entity">
-							<a href="#">
+							<a href="/entity/json">
 								<i class="menu-icon glyphicon glyphicon-fire"></i>
 								<span class="menu-text"> 实体生成 </span>
 							</a>
 						</li>
 						<li data-flag="encode">
-							<a href="#">
+							<a href="/encode/url">
 								<i class="menu-icon glyphicon glyphicon-list-alt"></i>
 								<span class="menu-text"> 编码解码 </span>
 							</a>
 						</li>
 						<li data-flag="encrypt">
-							<a href="#">
+							<a href="/encrypt/md5">
 								<i class="menu-icon glyphicon glyphicon-screenshot"></i>
 								<span class="menu-text"> 加密解密 </span>
 							</a>
 						</li>
 						<li data-flag="transfer">
-							<a href="#">
+							<a href="/transfer/dbc">
 								<i class="menu-icon glyphicon glyphicon-edit"></i>
 								<span class="menu-text"> 字符转换 </span>
 							</a>
 						</li>
-						<li data-flag="unit" class="active">
+						<li data-flag="unit">
 							<a href="/unit/binary">
 								<i class="menu-icon glyphicon glyphicon-gbp"></i>
 								<span class="menu-text"> 单位换算 </span>
 							</a>
 						</li>
 						<li data-flag="format">
-							<a href="#">
+							<a href="/format/js">
 								<i class="menu-icon glyphicon glyphicon-asterisk"></i>
 								<span class="menu-text"> 代码格式化 </span>
 							</a>
 						</li>
-						<li data-flag="regex" >
+						<li data-flag="regex">
 							<a href="/regex/test">
 								<i class="menu-icon glyphicon glyphicon-book"></i>
 								<span class="menu-text"> 正则表达式 </span>
@@ -134,9 +137,7 @@
 						<li data-flag="ercode">
 							<a href="/ercode/create">
 								<i class="menu-icon glyphicon glyphicon-qrcode"></i>
-								<span class="menu-text">
-                                二维码生成
-                            </span>
+								<span class="menu-text">二维码生成</span>
 							</a>
 						</li>
 						<li data-flag="barcode">

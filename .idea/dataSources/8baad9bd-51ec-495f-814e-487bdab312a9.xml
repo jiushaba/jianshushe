@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="jianshushe@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="jianshushe">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="ivms86x0"/>
+    <schema id="5" parent="1" name="jfinal_demo"/>
+    <schema id="6" parent="1" name="jjkkxt"/>
+    <schema id="7" parent="1" name="mydz"/>
+    <schema id="8" parent="1" name="mysql"/>
+    <schema id="9" parent="1" name="performance_schema"/>
+    <schema id="10" parent="1" name="rap_db"/>
+    <schema id="11" parent="1" name="sys"/>
+    <schema id="12" parent="1" name="sys_seting"/>
+    <schema id="13" parent="1" name="test2"/>
+    <table id="14" parent="2" name="sys_one"/>
+    <column id="15" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="16" parent="14" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="17" parent="14" name="number">
+      <Position>3</Position>
+      <DataType>int(255)|0</DataType>
+    </column>
+    <column id="18" parent="14" name="link">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="19" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -10,6 +10,7 @@ import com.demo.docs.HttpContoller;
 import com.demo.encode.EncodeController;
 import com.demo.encrypt.EncryptController;
 import com.demo.entity.JsonContoller;
+import com.demo.entity.StringContoller;
 import com.demo.entity.XmlContoller;
 import com.demo.ercode.ErcodeController;
 import com.demo.format.FormatController;
@@ -87,6 +88,7 @@ public class DemoConfig extends JFinalConfig {
 		me.add("/docs/html",HtmlContoller.class,"/html");
 		me.add("/docs/ascii",AsciiContoller.class,"/ascii");
 		me.add("/entity/json",JsonContoller.class,"/entity/json");
+		me.add("/entity/string",StringContoller.class);
 		me.add("/entity/xml",XmlContoller.class,"/entity/xml");
 		me.add("/ercode/create",ErcodeController.class,"/ercode");
 		me.add("/barcode/create",BarcodeController.class,"/barcode");

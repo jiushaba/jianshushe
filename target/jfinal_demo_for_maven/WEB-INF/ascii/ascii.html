@@ -2,562 +2,594 @@
 <html>
 
 <head>
-<meta charset="utf-8" />
-<title></title>
+    <meta charset="utf-8"/>
+    <title> ASCII码表 | 神经网络 |二维码制作 |条形码制作 |md5加密 - -程序员在线工具</title>
+    <meta name="keywords"
+          content="json格式化 | 二维码制作 |条形码制作 |http模拟查询 |在线调色板 |字符串生成实体| md5加密 | 正则在线测试 | 常用正则参考 |时间转换 |在线工具 |">
+    <meta name="description" content="打造好用的程序员在线工具----键鼠工作室">
 
-<link rel="stylesheet" href="../css/bootstrap.min.css" />
-<link rel="stylesheet" href="../css/bootstrap.css" />
-<link rel="stylesheet" href="../css/animate.css" />
-<link href="../css/font-awesome.min.css" rel="stylesheet">
-<link href="../css/weather-icons.min.css" rel="stylesheet">
-<link href="../css/beyond.min.css" rel="stylesheet">
-<link href="../css/demo.min.css" rel="stylesheet">
-<link href="../css/typicons.min.css" rel="stylesheet">
-<link href="../css/animate.min.css" rel="stylesheet">
-<link href="../http://www.ofmonkey.com/query/local" rel="stylesheet"
-	type="text/css">
-<link href="../css/simple.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/animate.css"/>
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/weather-icons.min.css" rel="stylesheet">
+    <link href="../css/beyond.min.css" rel="stylesheet">
+    <link href="../css/demo.min.css" rel="stylesheet">
+    <link href="../css/typicons.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="../http://www.ofmonkey.com/query/local" rel="stylesheet"
+          type="text/css">
+    <link href="../css/simple.css" rel="stylesheet">
 
-<script src="../jquery/jquery-3.2.1.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script type="text/javascript" src="http://tajs.qq.com/stats?sId=63576587" charset="UTF-8"></script>
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=63576587" charset="UTF-8"></script>
 
 </head>
 
 <body>
-	<!--导航-->
-	<nav class="navbar navbar-default navbar-fixed-top"
-		style="background: #101010;">
-		<div class="container-fluid">
-			<!--小屏幕导航按钮和logo-->
-			<div class="navbar-header">
-				<button class="navbar-toggle" data-toggle="collapse"
-					data-target=".navbar-collapse">
-					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
-				</button>
-				<a href="index.html" class="navbar-brand"> </a>
-			</div>
-			<!--小屏幕导航按钮和logo-->
-			<!--导航-->
-			<div class="navbar-collapse collapse">
-				<a href="/" class="navbar-left"> <img
-					src="../Images/monkey_logo.png" height="50px" />
-				</a>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#home">友情链接</a></li>
-					<li><a href="#bbs">赞助名单</a></li>
-					<li><a href="#html5">意见反馈</a></li>
-					<li><a href="#course">开发日志</a></li>
-					<li><a href="#app">关于本站</a></li>
-				</ul>
-			</div>
-			<!--导航-->
+<!--导航-->
+<nav class="navbar navbar-default navbar-fixed-top"
+     style="background:#090723;">
+    <div class="container-fluid">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"> </a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <a href="/" class="navbar-left"> <img
+                    src="../Images/monkey_logo.png" height="50px"/>
+            </a>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">友情链接</a></li>
+                <li><a href="#bbs">赞助名单</a></li>
+                <li><a href="#html5">意见反馈</a></li>
+                <li><a href="#course">开发日志</a></li>
+                <li><a href="#app">关于本站</a></li>
+            </ul>
+        </div>
+        <!--导航-->
 
-		</div>
-	</nav>
-	<!--导航-->
-	<div class="main-container container-fluid">
-		<div class="page-container">
-			<div class="page-sidebar" id="sidebar">
-				<ul class="nav sidebar-menu nav-pill">
-					<li><a href="/"> <i
-							class="menu-icon glyphicon glyphicon-home"></i> <span
-							class="menu-text"> 所有功能 </span>
-					</a></li>
-					<li data-flag="query"><a href="/query"> <i
-							class="menu-icon glyphicon glyphicon-search"></i> <span
-							class="menu-text"> 数据查询 </span>
-					</a></li>
-					<li data-flag="front"><a href="/front/color"> <i
-							class="menu-icon glyphicon glyphicon-th"></i> <span
-							class="menu-text"> 前端工具 </span>
-					</a></li>
-					<li data-flag="entity"><a href="#"> <i
-							class="menu-icon glyphicon glyphicon-fire"></i> <span
-							class="menu-text"> 实体生成 </span>
-					</a></li>
-					<li data-flag="encode"><a href="#"> <i
-							class="menu-icon glyphicon glyphicon-list-alt"></i> <span
-							class="menu-text"> 编码解码 </span>
-					</a></li>
-					<li data-flag="encrypt"><a href="#"> <i
-							class="menu-icon glyphicon glyphicon-screenshot"></i> <span
-							class="menu-text"> 加密解密 </span>
-					</a></li>
-					<li data-flag="transfer"><a href="#"> <i
-							class="menu-icon glyphicon glyphicon-edit"></i> <span
-							class="menu-text"> 字符转换 </span>
-					</a></li>
-					<li data-flag="unit"><a href="#"> <i
-							class="menu-icon glyphicon glyphicon-gbp"></i> <span
-							class="menu-text"> 单位换算 </span>
-					</a></li>
-					<li data-flag="format"><a href="#"> <i
-							class="menu-icon glyphicon glyphicon-asterisk"></i> <span
-							class="menu-text"> 代码格式化 </span>
-					</a></li>
-					<li data-flag="regex"><a href="/regex/test"> <i
-							class="menu-icon glyphicon glyphicon-book"></i> <span
-							class="menu-text"> 正则表达式 </span>
-					</a></li>
-					<li data-flag="ercode"><a href="/ercode/create"> <i
-							class="menu-icon glyphicon glyphicon-qrcode"></i> <span
-							class="menu-text"> 二维码生成 </span>
-					</a></li>
-					<li data-flag="barcode"><a href="/barcode/create"> <i
-							class="menu-icon glyphicon glyphicon-barcode"></i> <span
-							class="menu-text"> 条形码生成 </span>
-					</a></li>
-					<li data-flag="docs" class="active"><a href="/docs/http">
-							<i class="menu-icon glyphicon glyphicon-link"></i> <span
-							class="menu-text"> 常用参考表 </span>
-					</a></li>
-				</ul>
-			</div>
-			<div class="page-content"
-				style="padding: 20px 25px; background: #fff;">
+    </div>
+</nav>
+<!--导航-->
+<div class="main-container container-fluid">
+    <div class="page-container">
+        <div class="page-sidebar col-md-5" id="sidebar" >
+            <ul class="nav sidebar-menu nav-pill  ">
+                <li class="active">
+                    <a href="/">
+                        <i class="menu-icon glyphicon glyphicon-home"></i>
+                        <span class="menu-text"> 所有功能 </span>
+                    </a>
+                </li>
+                <li data-flag="query">
+                    <a href="/query">
+                        <i class="menu-icon glyphicon glyphicon-search"></i>
+                        <span class="menu-text"> 数据查询 </span>
+                    </a>
+                </li>
+                <li data-flag="front">
+                    <a href="/front/color">
+                        <i class="menu-icon glyphicon glyphicon-th"></i>
+                        <span class="menu-text"> 前端工具 </span>
+                    </a>
+                </li>
+                <li data-flag="entity">
+                    <a href="/entity/json">
+                        <i class="menu-icon glyphicon glyphicon-fire"></i>
+                        <span class="menu-text"> 实体生成 </span>
+                    </a>
+                </li>
+                <li data-flag="encode">
+                    <a href="/encode/url">
+                        <i class="menu-icon glyphicon glyphicon-list-alt"></i>
+                        <span class="menu-text"> 编码解码 </span>
+                    </a>
+                </li>
+                <li data-flag="encrypt">
+                    <a href="/encrypt/md5">
+                        <i class="menu-icon glyphicon glyphicon-screenshot"></i>
+                        <span class="menu-text"> 加密解密 </span>
+                    </a>
+                </li>
+                <li data-flag="transfer">
+                    <a href="/transfer/dbc">
+                        <i class="menu-icon glyphicon glyphicon-edit"></i>
+                        <span class="menu-text"> 字符转换 </span>
+                    </a>
+                </li>
+                <li data-flag="unit">
+                    <a href="/unit/binary">
+                        <i class="menu-icon glyphicon glyphicon-gbp"></i>
+                        <span class="menu-text"> 单位换算 </span>
+                    </a>
+                </li>
+                <li data-flag="format">
+                    <a href="/format/js">
+                        <i class="menu-icon glyphicon glyphicon-asterisk"></i>
+                        <span class="menu-text"> 代码格式化 </span>
+                    </a>
+                </li>
+                <li data-flag="regex">
+                    <a href="/regex/test">
+                        <i class="menu-icon glyphicon glyphicon-book"></i>
+                        <span class="menu-text"> 正则表达式 </span>
+                    </a>
+                </li>
+                <li data-flag="ercode">
+                    <a href="/ercode/create">
+                        <i class="menu-icon glyphicon glyphicon-qrcode"></i>
+                        <span class="menu-text">二维码生成</span>
+                    </a>
+                </li>
+                <li data-flag="barcode">
+                    <a href="/barcode/create">
+                        <i class="menu-icon glyphicon glyphicon-barcode"></i>
+                        <span class="menu-text">
+                                条形码生成
+                            </span>
+                    </a>
+                </li>
+                <li data-flag="docs">
+                    <a href="/docs/http">
+                        <i class="menu-icon glyphicon glyphicon-link"></i>
+                        <span class="menu-text"> 常用参考表 </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="page-content"
+             style="padding: 20px 25px; background: #fff;">
 
-				<ul class="nav nav-tabs">
-					<li><a href="/docs/http">Http状态码</a></li>
-					<li><a href="/docs/contenttype">Content-Type</a></li>
-					<li><a href="/docs/html">Html转义字符</a></li>
-					<li class="active"><a href="/docs/ascii">ASCII码表</a></li>
-				</ul>
-				<div class="tab-content">
-					<div id="app" class="tab-pane active">
-						<table class="table table-bordered table-hover">
-							<tbody>
-								<tr>
-									<th>ASCII值</th>
-									<th>控制字符</th>
-									<th>ASCII值</th>
-									<th>控制字符</th>
-									<th>ASCII值</th>
-									<th>控制字符</th>
-									<th>ASCII值</th>
-									<th>控制字符</th>
-								</tr>
-								<tr>
-									<td>0</td>
-									<td>NUT</td>
-									<td>32</td>
-									<td>(space)</td>
-									<td>64</td>
-									<td>@</td>
-									<td>96</td>
-									<td>、</td>
-								</tr>
-								<tr>
-									<td>1</td>
-									<td>SOH</td>
-									<td>33</td>
-									<td>!</td>
-									<td>65</td>
-									<td>A</td>
-									<td>97</td>
-									<td>a</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>STX</td>
-									<td>34</td>
-									<td>"</td>
-									<td>66</td>
-									<td>B</td>
-									<td>98</td>
-									<td>b</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>ETX</td>
-									<td>35</td>
-									<td>#</td>
-									<td>67</td>
-									<td>C</td>
-									<td>99</td>
-									<td>c</td>
-								</tr>
-								<tr>
-									<td>4</td>
-									<td>EOT</td>
-									<td>36</td>
-									<td>$</td>
-									<td>68</td>
-									<td>D</td>
-									<td>100</td>
-									<td>d</td>
-								</tr>
-								<tr>
-									<td>5</td>
-									<td>ENQ</td>
-									<td>37</td>
-									<td>%</td>
-									<td>69</td>
-									<td>E</td>
-									<td>101</td>
-									<td>e</td>
-								</tr>
-								<tr>
-									<td>6</td>
-									<td>ACK</td>
-									<td>38</td>
-									<td>&amp;</td>
-									<td>70</td>
-									<td>F</td>
-									<td>102</td>
-									<td>f</td>
-								</tr>
-								<tr>
-									<td>7</td>
-									<td>BEL</td>
-									<td>39</td>
-									<td>,</td>
-									<td>71</td>
-									<td>G</td>
-									<td>103</td>
-									<td>g</td>
-								</tr>
-								<tr>
-									<td>8</td>
-									<td>BS</td>
-									<td>40</td>
-									<td>(</td>
-									<td>72</td>
-									<td>H</td>
-									<td>104</td>
-									<td>h</td>
-								</tr>
-								<tr>
-									<td>9</td>
-									<td>HT</td>
-									<td>41</td>
-									<td>)</td>
-									<td>73</td>
-									<td>I</td>
-									<td>105</td>
-									<td>i</td>
-								</tr>
-								<tr>
-									<td>10</td>
-									<td>LF</td>
-									<td>42</td>
-									<td>*</td>
-									<td>74</td>
-									<td>J</td>
-									<td>106</td>
-									<td>j</td>
-								</tr>
-								<tr>
-									<td>11</td>
-									<td>VT</td>
-									<td>43</td>
-									<td>+</td>
-									<td>75</td>
-									<td>K</td>
-									<td>107</td>
-									<td>k</td>
-								</tr>
-								<tr>
-									<td>12</td>
-									<td>FF</td>
-									<td>44</td>
-									<td>,</td>
-									<td>76</td>
-									<td>L</td>
-									<td>108</td>
-									<td>l</td>
-								</tr>
-								<tr>
-									<td>13</td>
-									<td>CR</td>
-									<td>45</td>
-									<td>-</td>
-									<td>77</td>
-									<td>M</td>
-									<td>109</td>
-									<td>m</td>
-								</tr>
-								<tr>
-									<td>14</td>
-									<td>SO</td>
-									<td>46</td>
-									<td>.</td>
-									<td>78</td>
-									<td>N</td>
-									<td>110</td>
-									<td>n</td>
-								</tr>
-								<tr>
-									<td>15</td>
-									<td>SI</td>
-									<td>47</td>
-									<td>/</td>
-									<td>79</td>
-									<td>O</td>
-									<td>111</td>
-									<td>o</td>
-								</tr>
-								<tr>
-									<td>16</td>
-									<td>DLE</td>
-									<td>48</td>
-									<td>0</td>
-									<td>80</td>
-									<td>P</td>
-									<td>112</td>
-									<td>p</td>
-								</tr>
-								<tr>
-									<td>17</td>
-									<td>DCI</td>
-									<td>49</td>
-									<td>1</td>
-									<td>81</td>
-									<td>Q</td>
-									<td>113</td>
-									<td>q</td>
-								</tr>
-								<tr>
-									<td>18</td>
-									<td>DC2</td>
-									<td>50</td>
-									<td>2</td>
-									<td>82</td>
-									<td>R</td>
-									<td>114</td>
-									<td>r</td>
-								</tr>
-								<tr>
-									<td>19</td>
-									<td>DC3</td>
-									<td>51</td>
-									<td>3</td>
-									<td>83</td>
-									<td>S</td>
-									<td>115</td>
-									<td>s</td>
-								</tr>
-								<tr>
-									<td>20</td>
-									<td>DC4</td>
-									<td>52</td>
-									<td>4</td>
-									<td>84</td>
-									<td>T</td>
-									<td>116</td>
-									<td>t</td>
-								</tr>
-								<tr>
-									<td>21</td>
-									<td>NAK</td>
-									<td>53</td>
-									<td>5</td>
-									<td>85</td>
-									<td>U</td>
-									<td>117</td>
-									<td>u</td>
-								</tr>
-								<tr>
-									<td>22</td>
-									<td>SYN</td>
-									<td>54</td>
-									<td>6</td>
-									<td>86</td>
-									<td>V</td>
-									<td>118</td>
-									<td>v</td>
-								</tr>
-								<tr>
-									<td>23</td>
-									<td>TB</td>
-									<td>55</td>
-									<td>7</td>
-									<td>87</td>
-									<td>W</td>
-									<td>119</td>
-									<td>w</td>
-								</tr>
-								<tr>
-									<td>24</td>
-									<td>CAN</td>
-									<td>56</td>
-									<td>8</td>
-									<td>88</td>
-									<td>X</td>
-									<td>120</td>
-									<td>x</td>
-								</tr>
-								<tr>
-									<td>25</td>
-									<td>EM</td>
-									<td>57</td>
-									<td>9</td>
-									<td>89</td>
-									<td>Y</td>
-									<td>121</td>
-									<td>y</td>
-								</tr>
-								<tr>
-									<td>26</td>
-									<td>SUB</td>
-									<td>58</td>
-									<td>:</td>
-									<td>90</td>
-									<td>Z</td>
-									<td>122</td>
-									<td>z</td>
-								</tr>
-								<tr>
-									<td>27</td>
-									<td>ESC</td>
-									<td>59</td>
-									<td>;</td>
-									<td>91</td>
-									<td>[</td>
-									<td>123</td>
-									<td>{</td>
-								</tr>
-								<tr>
-									<td>28</td>
-									<td>FS</td>
-									<td>60</td>
-									<td>&lt;</td>
-									<td>92</td>
-									<td>/</td>
-									<td>124</td>
-									<td>|</td>
-								</tr>
-								<tr>
-									<td>29</td>
-									<td>GS</td>
-									<td>61</td>
-									<td>=</td>
-									<td>93</td>
-									<td>]</td>
-									<td>125</td>
-									<td>}</td>
-								</tr>
-								<tr>
-									<td>30</td>
-									<td>RS</td>
-									<td>62</td>
-									<td>&gt;</td>
-									<td>94</td>
-									<td>^</td>
-									<td>126</td>
-									<td>`</td>
-								</tr>
-								<tr>
-									<td>31</td>
-									<td>US</td>
-									<td>63</td>
-									<td>?</td>
-									<td>95</td>
-									<td>_</td>
-									<td>127</td>
-									<td>DEL</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="error-container">
-						<div id="errorDiv" class="alert alert-danger alert-dismissible"
-							role="alert" style="display: none;">错误：解码错误</div>
-					</div>
-				</div>
+            <ul class="nav nav-tabs">
+                <li><a href="/docs/http">Http状态码</a></li>
+                <li><a href="/docs/contenttype">Content-Type</a></li>
+                <li><a href="/docs/html">Html转义字符</a></li>
+                <li class="active"><a href="/docs/ascii">ASCII码表</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="app" class="tab-pane active">
+                    <table class="table table-bordered table-hover">
+                        <tbody>
+                        <tr>
+                            <th>ASCII值</th>
+                            <th>控制字符</th>
+                            <th>ASCII值</th>
+                            <th>控制字符</th>
+                            <th>ASCII值</th>
+                            <th>控制字符</th>
+                            <th>ASCII值</th>
+                            <th>控制字符</th>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>NUT</td>
+                            <td>32</td>
+                            <td>(space)</td>
+                            <td>64</td>
+                            <td>@</td>
+                            <td>96</td>
+                            <td>、</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>SOH</td>
+                            <td>33</td>
+                            <td>!</td>
+                            <td>65</td>
+                            <td>A</td>
+                            <td>97</td>
+                            <td>a</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>STX</td>
+                            <td>34</td>
+                            <td>"</td>
+                            <td>66</td>
+                            <td>B</td>
+                            <td>98</td>
+                            <td>b</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>ETX</td>
+                            <td>35</td>
+                            <td>#</td>
+                            <td>67</td>
+                            <td>C</td>
+                            <td>99</td>
+                            <td>c</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>EOT</td>
+                            <td>36</td>
+                            <td>$</td>
+                            <td>68</td>
+                            <td>D</td>
+                            <td>100</td>
+                            <td>d</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>ENQ</td>
+                            <td>37</td>
+                            <td>%</td>
+                            <td>69</td>
+                            <td>E</td>
+                            <td>101</td>
+                            <td>e</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>ACK</td>
+                            <td>38</td>
+                            <td>&amp;</td>
+                            <td>70</td>
+                            <td>F</td>
+                            <td>102</td>
+                            <td>f</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>BEL</td>
+                            <td>39</td>
+                            <td>,</td>
+                            <td>71</td>
+                            <td>G</td>
+                            <td>103</td>
+                            <td>g</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>BS</td>
+                            <td>40</td>
+                            <td>(</td>
+                            <td>72</td>
+                            <td>H</td>
+                            <td>104</td>
+                            <td>h</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>HT</td>
+                            <td>41</td>
+                            <td>)</td>
+                            <td>73</td>
+                            <td>I</td>
+                            <td>105</td>
+                            <td>i</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>LF</td>
+                            <td>42</td>
+                            <td>*</td>
+                            <td>74</td>
+                            <td>J</td>
+                            <td>106</td>
+                            <td>j</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>VT</td>
+                            <td>43</td>
+                            <td>+</td>
+                            <td>75</td>
+                            <td>K</td>
+                            <td>107</td>
+                            <td>k</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>FF</td>
+                            <td>44</td>
+                            <td>,</td>
+                            <td>76</td>
+                            <td>L</td>
+                            <td>108</td>
+                            <td>l</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>CR</td>
+                            <td>45</td>
+                            <td>-</td>
+                            <td>77</td>
+                            <td>M</td>
+                            <td>109</td>
+                            <td>m</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>SO</td>
+                            <td>46</td>
+                            <td>.</td>
+                            <td>78</td>
+                            <td>N</td>
+                            <td>110</td>
+                            <td>n</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>SI</td>
+                            <td>47</td>
+                            <td>/</td>
+                            <td>79</td>
+                            <td>O</td>
+                            <td>111</td>
+                            <td>o</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>DLE</td>
+                            <td>48</td>
+                            <td>0</td>
+                            <td>80</td>
+                            <td>P</td>
+                            <td>112</td>
+                            <td>p</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>DCI</td>
+                            <td>49</td>
+                            <td>1</td>
+                            <td>81</td>
+                            <td>Q</td>
+                            <td>113</td>
+                            <td>q</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>DC2</td>
+                            <td>50</td>
+                            <td>2</td>
+                            <td>82</td>
+                            <td>R</td>
+                            <td>114</td>
+                            <td>r</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>DC3</td>
+                            <td>51</td>
+                            <td>3</td>
+                            <td>83</td>
+                            <td>S</td>
+                            <td>115</td>
+                            <td>s</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>DC4</td>
+                            <td>52</td>
+                            <td>4</td>
+                            <td>84</td>
+                            <td>T</td>
+                            <td>116</td>
+                            <td>t</td>
+                        </tr>
+                        <tr>
+                            <td>21</td>
+                            <td>NAK</td>
+                            <td>53</td>
+                            <td>5</td>
+                            <td>85</td>
+                            <td>U</td>
+                            <td>117</td>
+                            <td>u</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>SYN</td>
+                            <td>54</td>
+                            <td>6</td>
+                            <td>86</td>
+                            <td>V</td>
+                            <td>118</td>
+                            <td>v</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>TB</td>
+                            <td>55</td>
+                            <td>7</td>
+                            <td>87</td>
+                            <td>W</td>
+                            <td>119</td>
+                            <td>w</td>
+                        </tr>
+                        <tr>
+                            <td>24</td>
+                            <td>CAN</td>
+                            <td>56</td>
+                            <td>8</td>
+                            <td>88</td>
+                            <td>X</td>
+                            <td>120</td>
+                            <td>x</td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>EM</td>
+                            <td>57</td>
+                            <td>9</td>
+                            <td>89</td>
+                            <td>Y</td>
+                            <td>121</td>
+                            <td>y</td>
+                        </tr>
+                        <tr>
+                            <td>26</td>
+                            <td>SUB</td>
+                            <td>58</td>
+                            <td>:</td>
+                            <td>90</td>
+                            <td>Z</td>
+                            <td>122</td>
+                            <td>z</td>
+                        </tr>
+                        <tr>
+                            <td>27</td>
+                            <td>ESC</td>
+                            <td>59</td>
+                            <td>;</td>
+                            <td>91</td>
+                            <td>[</td>
+                            <td>123</td>
+                            <td>{</td>
+                        </tr>
+                        <tr>
+                            <td>28</td>
+                            <td>FS</td>
+                            <td>60</td>
+                            <td>&lt;</td>
+                            <td>92</td>
+                            <td>/</td>
+                            <td>124</td>
+                            <td>|</td>
+                        </tr>
+                        <tr>
+                            <td>29</td>
+                            <td>GS</td>
+                            <td>61</td>
+                            <td>=</td>
+                            <td>93</td>
+                            <td>]</td>
+                            <td>125</td>
+                            <td>}</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>RS</td>
+                            <td>62</td>
+                            <td>&gt;</td>
+                            <td>94</td>
+                            <td>^</td>
+                            <td>126</td>
+                            <td>`</td>
+                        </tr>
+                        <tr>
+                            <td>31</td>
+                            <td>US</td>
+                            <td>63</td>
+                            <td>?</td>
+                            <td>95</td>
+                            <td>_</td>
+                            <td>127</td>
+                            <td>DEL</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="error-container">
+                    <div id="errorDiv" class="alert alert-danger alert-dismissible"
+                         role="alert" style="display: none;">错误：解码错误
+                    </div>
+                </div>
+            </div>
 
-			</div>
-		</div>
-	</div>
+        </div>
+    </div>
+</div>
 
-	<div class="side-nav">
-		<a href="#">留言</a> 
-		<a class="btnHelp" href="javscript:void(0)">赞助</a>
-		<a id="backTop" href="javascript:void(0)"style="display: none;" >置顶</a>
-	</div>
+<div class="side-nav">
+    <a href="#">留言</a>
+    <a class="btnHelp" href="javscript:void(0)">赞助</a>
+    <a id="backTop" href="javascript:void(0)" style="display: none;">置顶</a>
+</div>
 
-	<!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">
-						<span aria-hidden="true">×</span><span class="sr-only">Close</span>
-					</button>
-					<h4 class="modal-title" id="myModalLabel">感谢赞助</h4>
-				</div>
-				<div class="modal-body">
-					<table class="help-table">
-						<tbody>
-							<tr>
-									<td>
-										<img class="help-image" src="../Images/wx.png">
-									</td>
-									<td>
-										<img class="help-image" src="../Images/zf.png">
-									</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</div>
-	</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">感谢赞助</h4>
+            </div>
+            <div class="modal-body">
+                <table class="help-table">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <img class="help-image" src="../Images/wx.png">
+                        </td>
+                        <td>
+                            <img class="help-image" src="../Images/zf.png">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<script src="../js/beyond.min.js"></script>
-	<input id="hiddenToken" name="hiddenToken" type="hidden"
-		value="00000000-0000-0000-0000-000000000000636385058528971380">
+<script src="../js/beyond.min.js"></script>
+<input id="hiddenToken" name="hiddenToken" type="hidden"
+       value="00000000-0000-0000-0000-000000000000636385058528971380">
 
-	<!--home-->
-		<script>
-			$(function() {
-				$(window).scroll(function() {
-					if($(window).scrollTop() >= 200) {
-						$('#backTop').fadeIn(300);
-					} else {
-						$('#backTop').fadeOut(300);
-					}
-				});
-				$('#backTop').click(function() {
-					$('html,body').animate({
-						scrollTop: '0px'
-					}, 500);
-				});
+<!--home-->
+<script>
+    $(function () {
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 200) {
+                $('#backTop').fadeIn(300);
+            } else {
+                $('#backTop').fadeOut(300);
+            }
+        });
+        $('#backTop').click(function () {
+            $('html,body').animate({
+                scrollTop: '0px'
+            }, 500);
+        });
 
-				$(document).on("click", ".btnHelp", function() {
-					$("#myModal").modal("show");
-				});
-			});
+        $(document).on("click", ".btnHelp", function () {
+            $("#myModal").modal("show");
+        });
+    });
 
-			$(function() {
-				var hash = location.hash;
-				if(hash) {
-					var $nav = $("#myTab");
-					var $cur = $nav.find('a[href="' + hash + '"]');
-					$cur.click();
-				}
-			});
+    $(function () {
+        var hash = location.hash;
+        if (hash) {
+            var $nav = $("#myTab");
+            var $cur = $nav.find('a[href="' + hash + '"]');
+            $cur.click();
+        }
+    });
 
-			(function() {
-				//当前页导航高亮显示
-				var isIndex = true;
-				var href = location.href.toLowerCase();
-				var $lis = $(".nav-pill").children("li");
-				$.each($lis, function() {
-					var nav = $(this).attr("data-flag");
-					if(href.indexOf(nav) > 0) {
-						$(this).addClass("active");
-						isIndex = false;
-						return false;
-					}
-				});
+    (function () {
+        //当前页导航高亮显示
+        var isIndex = true;
+        var href = location.href.toLowerCase();
+        var $lis = $(".nav-pill").children("li");
+        $.each($lis, function () {
+            var nav = $(this).attr("data-flag");
+            if (href.indexOf(nav) > 0) {
+                $(this).addClass("active");
+                isIndex = false;
+                return false;
+            }
+        });
 
-				if(isIndex)
-					$(".nav-pill li").eq(0).addClass("active");
-			}());
-		</script>
+        if (isIndex)
+            $(".nav-pill li").eq(0).addClass("active");
+    }());
+</script>
 
 </body>
 
